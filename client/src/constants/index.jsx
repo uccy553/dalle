@@ -7,6 +7,7 @@ export const surpriseMePrompts = [
   'A majestic bald eagle perched on a tree branch overlooking a waterfall',
   'A herd of elephants crossing a savannah river at sunset',
   'A sunset over the ocean',
+  ' An oasis in the desert',
   'panda mad scientist mixing sparkling chemicals, digital art',
   "a macro 35mm photograph of two mice in Hawaii, they're each wearing tiny swimsuits and are carrying tiny surf boards, digital art",
   '3D render of a cute tropical fish in an aquarium on a dark blue background, digital art',
