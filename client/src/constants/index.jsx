@@ -3,6 +3,7 @@ export const surpriseMePrompts = [
   'a surrealist dream-like oil painting by Salvador Dalí of a cat playing checkers',
   'teddy bears shopping for groceries in Japan, ukiyo-e',
   'an oil painting by Matisse of a humanoid robot playing chess',
+  'A majestic bald eagle perched on a tree branch overlooking a waterfall',
   'A herd of elephants crossing a savannah river at sunset',
   'panda mad scientist mixing sparkling chemicals, digital art',
   "a macro 35mm photograph of two mice in Hawaii, they're each wearing tiny swimsuits and are carrying tiny surf boards, digital art",
