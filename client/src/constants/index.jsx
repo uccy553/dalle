@@ -2,6 +2,7 @@ export const surpriseMePrompts = [
   'an armchair in the shape of an avocado',
   'a surrealist dream-like oil painting by Salvador Dalí of a cat playing checkers',
   'teddy bears shopping for groceries in Japan, ukiyo-e',
+  'The Milky Way galaxy stretching across the night sky',
   'an oil painting by Matisse of a humanoid robot playing chess',
   'A majestic bald eagle perched on a tree branch overlooking a waterfall',
   'A herd of elephants crossing a savannah river at sunset',
