@@ -52,7 +52,9 @@ const CreatePost = () => {
 
  const generateImage = async () => {
   if(form.prompt) {
-    try {
+    if(!form.name) alert("Please enter your name")
+    else {
+      try {
       setGeneratingImg(true);
       const response = await fetch('https://dalle-tc3m.onrender.com/api/v1/dalle', {
         method: 'POST',
@@ -68,6 +70,7 @@ const CreatePost = () => {
       alert(error)
     } finally{
       setGeneratingImg(false)
+    }
     }
   } else {
     try {
