@@ -8,7 +8,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <header className='w-full flex justify-between items-center fixed bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]'>
+      <header className='w-full flex justify-between items-center fixed z-10 bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]'>
         <Link to="/">
           <img src={logo} alt="logo" className='w-28 object-contain' />
         </Link>
