@@ -13,6 +13,7 @@ export const surpriseMePrompts = [
   'a sunlit indoor lounge area with a pool with clear water and another pool with translucent pastel pink water, next to a big window, digital art',
   'a fortune-telling shiba inu reading your fate in a giant hamburger, digital art',
   '"a sea otter with a pearl earring" by Johannes Vermeer',
+  'A family of polar bears playing on an ice floe in a arctic river',
   'a beautiful nature photo with a lot of greenery, rivers and rainbows 4k, ultra realistic',
   'an oil pastel drawing of an annoyed cat in a spaceship',
   'a painting of a fox in the style of Starry Night',
