@@ -2,7 +2,7 @@ import React from 'react'
 import { download } from '../assets'
 import { downloadImage } from '../utils'
 
-const Card = ({ _id, name, prompt, photo }) => {
+const Card = ({ _id, name, prompt, photo, post, handleDeleteCard }) => {
   return (
     <div className='rounded-xl group relative shadow-card hover:shadow-cardhover card'>
       <img className='w-full h-auto object-cover rounded-xl' src={photo} alt={prompt} />
@@ -20,6 +20,7 @@ const Card = ({ _id, name, prompt, photo }) => {
           <button type='button' onClick={() => downloadImage(_id, photo)} className="outline-none bg-transparent border-none">
             <img src={download} alt="download" className="w-6 h-6 object-contain invert" />
           </button>
+          <button className='text-red-700' onClick={() => handleDeleteCard(post._id)}>Delete</button>
         </div>
       </div>
     </div>
