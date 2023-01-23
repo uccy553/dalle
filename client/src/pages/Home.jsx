@@ -99,7 +99,7 @@ const Home = () => {
                         {searchText ? (
                             <RenderCards data={searchedResults} title="No search results found" />
                         ) : (
-                            <RenderCards data={allPosts} title="No Posts Yet" />
+                            <RenderCards data={allPosts} handleDeleteCard={handleDeleteCard}  title="No Posts Yet" />
                         )}
                     
                     </div>
