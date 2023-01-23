@@ -6,6 +6,7 @@ export const surpriseMePrompts = [
   'an oil painting by Matisse of a humanoid robot playing chess',
   'A majestic bald eagle perched on a tree branch overlooking a waterfall',
   'A herd of elephants crossing a savannah river at sunset',
+  'An island surrounded by crystal clear waters ',
   'A sunset over the ocean',
   ' An oasis in the desert',
   'panda mad scientist mixing sparkling chemicals, digital art',
