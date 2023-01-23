@@ -1,17 +1,17 @@
 import { useState, useEffect } from 'react';
 import { Loader, Card, FormField } from '../components'; 
 
-const RenderCards = ({ data, title }) => {
+const RenderCards = ({ data, title, handleDeleteCard }) => {
     if (data && data.length > 0) {
       return (
-        data.map((post) => <Card key={post._id} {...post} />)
+        data.map((post) => <Card key={post._id} post={post} {...post} handleDeleteCard={handleDeleteCard} />)
       );
     }
   
     return (
       <h2 className="mt-5 font-bold text-[#6469ff] text-xl uppercase">{title}</h2>
     );
-  };
+};
 
 const Home = () => {
     const [loading, setLoading] = useState(false);
@@ -56,6 +56,16 @@ const Home = () => {
             }, 500)
         );
     }
+    
+    const handleDeleteCard = (id) => {
+        const newAllPosts = allPosts.filter(post => post._id !== id);
+        setAllPosts(newAllPosts);
+
+        if(searchText) {
+            const newSearchedResults = searchedResults.filter(post => post._id !== id);
+            setSearchedResults(newSearchedResults);
+          }
+      }
   return (
     <section className='max-w-7xl mx-auto'>
         <div>
